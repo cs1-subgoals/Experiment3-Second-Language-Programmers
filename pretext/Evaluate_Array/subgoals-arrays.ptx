@@ -1,0 +1,63 @@
+<introduction>
+    <title>Subgoals for Evaluating Arrays</title>
+    <p>
+        <ol marker="1">
+            <li>
+                <p>Declaring and initialization of array</p>
+                <p><ol marker="A">
+                    <li>
+                        <p>Set up a one dimensional table (i.e., one row) with 0 to (size - 1) elements</p>
+                    </li>
+                    <li>
+                        <p>Upon instantiation of an array object, all elements contain default value for datatype stored in array OR values from the initializer list</p>
+                    </li>
+                </ol></p>
+            </li>
+            <li>
+                <p>Determine access or change of element, or action on entire array object, and update slots as needed (remembering assignment subgoals)</p>
+            </li>
+            <li>
+                <p>Accessing array element</p>
+                <p><ol marker="A">
+                    <li>
+                        <p>Evaluate expression within [] which will be the index for element to be accessed</p>
+                    </li>
+                    <li>
+                        <p><c>arrayName[index]</c> returns value stored at that index</p>
+                    </li>
+                    <li>
+                        <p>index must be between 0 and <c>arrayName.length</c> - 1, inclusive otherwise <c>IndexOutOfBounds</c> exception occurs</p>
+                    </li>
+                </ol></p>
+            </li>
+            <li>
+                <p>Changing value of an array element</p>
+                <p><ol marker="A">
+                    <li>
+                        <p>Evaluate expression within [] which will be the index for element to be accessed</p>
+                    </li>
+                    <li>
+                        <p><c>arrayName[index]</c> will now contain the value on the RHS of assignment statement</p>
+                    </li>
+                    <li>
+                        <p>(remember the assignment subgoals for verifying data types and evaluating expressions)</p>
+                    </li>
+                    <li>
+                        <p>(remember rules for index values)</p>
+                    </li>
+                </ol></p>
+            </li>
+            <li>
+                <p>Whole array actions</p>
+                <p><ol marker="A">
+                    <li>
+                        <p>Pass as argument - a copy of the reference to the instantiated array is passed to the method. This means that any changes made to the array elements inside the method are persistent. The one exception to this is if you assign the argument to reference a different array in memory.</p>
+                    </li>
+                    <li>
+                        <p>Assignment - changes the reference to point to the array on the RHS of the assignment operator.</p>
+                    </li>
+                </ol></p>
+            </li>
+        </ol>
+    </p>
+</introduction>

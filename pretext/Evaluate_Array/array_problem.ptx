@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="array_problem" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+        <title>EvaluateArray-Exercise</title>
+        <xi:include href='./subgoals-arrays.ptx' />
+        <subsection>
+<exercises>
+            <exercise xml:id="parsons-Arrays-WE6-P1-19" indent="show" language="java">
+                <statement>
+                    <p>Q1: Put the following code in order to create a program that will declare and instantiate an array of 20 random values between 1 and 100 and then calculate and print the average of the last n numbers.</p>
+                </statement>
+                <blocks>
+                    <block order="9">
+                        <cline>import java.util.*;</cline>
+                        <cline>public class main{</cline>
+                        <cline>   public static void main (String[] args) {</cline>
+                    </block>
+                    <block order="5">
+                        <cline>      Random r = new Random();</cline>
+                        <cline>      int size = 20;</cline>
+                        <cline>      int [] arr = new int[size];</cline>
+                        <cline>      int sum = 0;</cline>
+                        <cline>      int n = r.nextInt(size);</cline>
+                    </block>
+                    <block order="3">
+                        <cline>      for (int i = 0; i &lt; 20; i++) {</cline>
+                        <cline>         arr[i] = r.nextInt(100) + 1;</cline>
+                        <cline>         System.out.println("arr["+i+"] is " + arr[i]);</cline>
+                        <cline>      }</cline>
+                    </block>
+                    <block order="11">
+                        <cline>      if (n &lt;= 0)</cline>
+                    </block>
+                    <block order="7">
+                        <cline>         System.out.println("No numbers to average.");</cline>
+                    </block>
+                    <block order="10">
+                        <cline>      else {</cline>
+                    </block>
+                    <block order="2">
+                        <cline>         for (int i = 20-n; i &lt; 20; i++)</cline>
+                    </block>
+                    <block order="6">
+                        <cline>             sum += arr[i];</cline>
+                    </block>
+                    <block order="4">
+                        <cline>         System.out.println("Avg of last n is " + (sum * 1.0)/n);</cline>
+                    </block>
+                    <block order="1">
+                        <cline>      }</cline>
+                    </block>
+                    <block order="8">
+                        <cline>   }</cline>
+                        <cline>}</cline>
+                    </block>
+                </blocks>
+            </exercise>
+</exercises>
+        </subsection>
+</section>
+

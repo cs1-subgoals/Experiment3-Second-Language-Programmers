@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="array-problem-solution" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US"> 
+        <title>EvaluateArray-Solution</title>
+        <image source="evaluate_array_solution/evaluate_array_solution.png" ></image>
+        <xi:include href='./subgoals-arrays.ptx' />
+</section>
