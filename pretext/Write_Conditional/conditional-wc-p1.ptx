@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="conditional-wc-p1" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US"> 
+        <title>WriteConditional-Exercise</title>
+        <xi:include href='./subgoals_write_conditional.ptx' />
+        <transition/>
+        <subsection>
+            <title>WrCond-Parsons-Problem</title>
+    <exercises>
+        
+        <exercise xml:id="parsons-WrCond-WE2-P1-9" indent="show" language="python">
+            <statement>
+                <p>Put the code in the right order to create a program that will ask the user for 3 numbers (1 to 10 inclusive) 
+                    for variables a, b, and c, and print the value of each variable. Then compare a to b, a to c, and b to c, and print statements for each 
+                    comparison, reporting for each pair of variables if they are equal, greater than, or less than. </p>
+            </statement>
+            <blocks>
+                <block order="1">
+                    <cline>a = int(input("Please enter an integer between 1 and 10: "))</cline>
+                    <cline>b = int(input("Please enter an integer between 1 and 10: "))</cline>
+                    <cline>c = int(input("Please enter an integer between 1 and 10: "))</cline>
+                </block><block order="2">
+                    <cline>print(a)</cline>
+                    <cline>print(b)</cline>
+                    <cline>print(c)</cline>
+                    <cline>if a == b:</cline>
+                </block><block order="3">
+                    <cline>    print("a and b are equal")</cline>
+                </block><block order="4">
+                    <cline>elif a > b:</cline>
+                    <cline>    print("a is greater than b")</cline>
+                    <cline>else:</cline>
+                    <cline>    print("a is less than b")</cline>
+                    <cline>if a == c:</cline>
+                </block><block order="5">
+                    <cline>    print("a and c are equal")</cline>
+                </block><block order="6">
+                    <cline>elif a > c:</cline>
+                    <cline>    print("a is greater than c")</cline>
+                    <cline>else:</cline>
+                    <cline>    print("a is less than c")</cline>
+                </block><block order="7">
+                    <cline>if b == c:</cline>
+                </block><block order="8">
+                    <cline>    print("b and c are equal")</cline>
+                </block><block order="9">
+                    <cline>elif b > c:</cline>
+                </block><block order="10">
+                    <cline>    print("b is greater than c")</cline>
+                </block><block order="11">
+                    <cline>else:</cline>
+                </block><block order="12">
+                    <cline>    print("b is less than c")</cline>
+                </block>
+            </blocks>
+        </exercise>
+    </exercises>
+</subsection>
+
+</section>

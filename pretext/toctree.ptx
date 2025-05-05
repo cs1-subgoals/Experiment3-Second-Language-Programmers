@@ -9,5 +9,7 @@
     <title>Second Language Programmer Experiment</title>
 
     <xi:include href="ConsentForm/toctree.ptx"/>
+    <xi:include href="Write_Conditional/toctree.ptx"/>
+    <xi:include href="Closing_Page/toctree.ptx"/>
   </book>
 </pretext>
