@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="survey" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+    <title>Survey</title>
+
+    <p>Please answer the following survey questions.</p>
+    <exercises>
+        <exercise xml:id="survey-Q1">
+            <statement>
+              <p>
+                Q1: Please indicate which, if any, prior computer programming experiences that you've had during grades K–5 (age 5 to 11) — check ALL that apply. (The checkme results can be ignored!)
+              </p>
+            </statement>
+          
+            <choices>
+              <choice correct="yes">
+                <statement><p>Less than a day (museum type)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months outside of school (camps)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months inside of school (programming unit)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months outside of school (learning on your own)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months outside of school (after school program)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months inside of school (computing course)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months outside of school (learning on your own)</p></statement>
+              </choice>
+            </choices>
+          </exercise>
+          
+          <exercise xml:id="survey-Q2">
+            <statement>
+              <p>
+                Q2: Please indicate which, if any, prior computer programming experiences that you’ve had during grades 6–8 (age 12 to 14) — check ALL that apply.
+              </p>
+            </statement>
+          
+            <choices>
+              <choice correct="yes">
+                <statement><p>Less than a day (museum type)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months outside of school (camps)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months inside of school (programming unit)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months outside of school (learning on your own)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months outside of school (after school program)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months inside of school (computing course)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months outside of school (learning on your own)</p></statement>
+              </choice>
+            </choices>
+          </exercise>
+
+          
+          <exercise xml:id="survey-Q3">
+            <statement>
+              <p>
+                Q3: Please indicate which, if any, prior computer programming experiences that you’ve had during grades 9–12 (age 14 to 18) — check ALL that apply.
+              </p>
+            </statement>
+          
+            <choices>
+              <choice correct="yes">
+                <statement><p>Less than a day (museum type)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months outside of school (camps)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months inside of school (programming unit)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than a day but less than 2 months outside of school (learning on your own)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months outside of school (after school program)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months inside of school (computing course)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>More than 2 months outside of school (learning on your own)</p></statement>
+              </choice>
+            </choices>
+          </exercise>
+
+          <exercise xml:id="survey-Q4">
+            <statement>
+              <p>
+                Q4: Please indicate which, if any, courses you have taken here at UB that involved programming — check ALL that apply.
+              </p>
+            </statement>
+          
+            <choices>
+              <choice correct="yes">
+                <statement><p>CSE 111</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>CSE 113</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>CSE 115</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>CSE 116</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>CSE 2xx course (any)</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>None of the above</p></statement>
+              </choice>
+            </choices>
+          </exercise>
+
+          
+          <exercise xml:id="survey-Q5">
+            <statement>
+              <p>
+                Q5: Based on your previous CS experience, how much do you agree or disagree with the following statement? <strong>[ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</strong>
+              </p>
+              <p>
+                <em>I am better at computer science than most of the other students in my course.</em>
+              </p>
+            </statement>
+          
+            <choices>
+              <choice correct="yes">
+                <statement><p>1 - Completely Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>2 - Mostly Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>3 - Slightly Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>4 - Slightly Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>5 - Mostly Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>6 - Completely Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>Not a student of CSE 115 or 116.</p></statement>
+              </choice>
+            </choices>
+          </exercise>
+          
+          <exercise xml:id="survey-Q6">
+            <statement>
+              <p>
+                Q6: Based on your previous CS experience, how much do you agree or disagree with the following statement? <strong>[ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</strong>
+              </p>
+              <p>
+                <em>I am very good at computer science.</em>
+              </p>
+            </statement>
+          
+            <choices>
+              <choice correct="yes">
+                <statement><p>1 - Completely Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>2 - Mostly Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>3 - Slightly Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>4 - Slightly Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>5 - Mostly Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>6 - Completely Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>Not a student of CSE 115 or 116.</p></statement>
+              </choice>
+            </choices>
+          </exercise>
+
+          <exercise xml:id="survey-Q7">
+            <statement>
+              <p>
+                Q7: Based on your previous CS experience, how much do you agree or disagree with the following statement? <strong>[ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</strong>
+              </p>
+              <p>
+                <em>I can figure out how to solve the most difficult problems in my computer science class if I try.</em>
+              </p>
+            </statement>
+          
+            <choices>
+              <choice correct="yes">
+                <statement><p>1 - Completely Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>2 - Mostly Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>3 - Slightly Disagree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>4 - Slightly Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>5 - Mostly Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>6 - Completely Agree</p></statement>
+              </choice>
+              <choice correct="yes">
+                <statement><p>Not a student of CSE 115 or 116.</p></statement>
+              </choice>
+            </choices>
+          </exercise>
+          
+          
+          
+    </exercises>
+</section>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="consent-form" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+    <title>Consent Form</title>
+
+    <p>
+        Please read the following consent form.
+    </p>
+    <image source="consentForm/page-1.png" ></image>
+    <image source="consentForm/page-2.png" ></image>
+    <image source="consentForm/page-3.png" ></image>
+    <exercises>
+        <exercise xml:id="Consent-FormQ1">
+            <statement>
+                <p>
+                    Q1: Have you been given a copy of the consent document for this research? (There is no need to press the “Check Me” button. Your answers are recorded with just the selection.)
+                </p>
+            </statement>
+
+
+            <choices>
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            Yes
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>
+                            No
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>You must consent to participate</p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+        <exercise xml:id="Consent-FormQ2">
+            <statement>
+                <p>
+                    Q2: Do you consent to participating in the research as described to you in the consent document? (There is no need to press the “Check Me” button. Your answers are recorded with just the selection.)
+                </p>
+            </statement>
+
+
+            <choices>
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            Yes
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>
+                            No
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>You must consent to participate</p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+    </exercises>
+</section>
