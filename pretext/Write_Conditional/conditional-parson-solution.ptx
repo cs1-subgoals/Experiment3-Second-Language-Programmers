@@ -2,6 +2,6 @@
 
 <section xml:id="conditional-parson-solution" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US"> 
         <title>WriteConditional-Solution</title>
-        <image source="conditional_solution/solved_conditional_problem.png" ></image>
+        <image source="conditional_solution/solved_conditional_problemlight.png" ></image>
         <xi:include href='./subgoals_write_conditional.ptx' />
 </section>
