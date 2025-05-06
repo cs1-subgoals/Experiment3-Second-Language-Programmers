@@ -2,7 +2,7 @@
 
 <section xml:id="conditional-wc-p1" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US"> 
         <title>WriteConditional-Exercise</title>
-        <xi:include href='./subgoals_write_conditional.ptx' />
+        
         <transition/>
         <subsection>
             <title>WrCond-Parsons-Problem</title>
