@@ -2,7 +2,7 @@
 
 <section xml:id="array_problem" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
         <title>EvaluateArray-Exercise</title>
-        
+        <xi:include href='./subgoals-arrays.ptx' />
         <subsection>
 <exercises>
             <exercise xml:id="parsons-Arrays-WE6-P1-19" indent="show" language="java">
