@@ -3,6 +3,6 @@
 <section xml:id="array-problem-solution" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US"> 
         <title>EvaluateArray-Solution</title>
         <xi:include href='./subgoals-arrays.ptx' />
-        <image source="evaluate_array_solution/evaluate_array_solutionlight.png" ></image>
+        <image source="evaluate_array_solution/updatedSolutionForArrayEval.png" ></image>
         
 </section>

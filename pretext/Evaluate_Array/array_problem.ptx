@@ -29,25 +29,28 @@
                         <cline>      }</cline>
                     </block>
                     <block order="11">
-                        <cline>      if (n &lt;= 0)</cline>
+                        <cline>      if (n &lt;= 0) {</cline>
                     </block>
                     <block order="7">
                         <cline>         System.out.println("No numbers to average.");</cline>
                     </block>
                     <block order="10">
-                        <cline>      else {</cline>
+                        <cline>      } else {</cline>
                     </block>
                     <block order="2">
-                        <cline>         for (int i = 20-n; i &lt; 20; i++)</cline>
+                        <cline>         for (int i = 20-n; i &lt; 20; i++) {</cline>
                     </block>
                     <block order="6">
                         <cline>             sum += arr[i];</cline>
+                    </block>
+                    <block order="12">
+                        <cline>         } // end for loop</cline>
                     </block>
                     <block order="4">
                         <cline>         System.out.println("Avg of last n is " + (sum * 1.0)/n);</cline>
                     </block>
                     <block order="1">
-                        <cline>      }</cline>
+                        <cline>      } // end if/else</cline>
                     </block>
                     <block order="8">
                         <cline>   }</cline>
